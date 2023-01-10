@@ -18,7 +18,20 @@ namespace BootcampPottencialDotNetExemploPOO.Models
 
         public void Sacar(decimal valor)
         {
-            saldo -= valor;
+            if(saldo >= valor)
+            {
+                saldo -= valor;
+                Console.WriteLine($"SAQUE REALIZADO COM SUCESSO, NOVO SALDO: {saldo}");
+            }
+            else
+            {
+                Console.WriteLine("Valor para saque é maior que o disponível em conta.");
+            }
+        }
+
+        public void ExibirSaldo()
+        {
+            Console.WriteLine($"Seu saldo disponível é: {saldo}");
         }
     }
 }
