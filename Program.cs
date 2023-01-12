@@ -7,6 +7,11 @@ a1.Idade = 1;
 a1.Nota = 2;
 a1.Apresentar();
 
+Professor p1 = new Professor();
+p1.Nome = "Eduardo";
+p1.Idade = 2;
+p1.Salario = 3;
+p1.Apresentar();
 
 /*
 ContaCorrente c1 = new ContaCorrente(123, 1000);
