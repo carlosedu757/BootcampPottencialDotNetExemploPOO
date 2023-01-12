@@ -1,6 +1,19 @@
 ﻿using BootcampPottencialDotNetExemploPOO.Models;
 
 
+Pessoa p1 = new Pessoa("cARLOS");
+Aluno a1 = new Aluno("Pita");
+
+a1.Apresentar();
+
+
+/*
+Corrente c = new Corrente();
+c.Creditar(500);
+c.ExibirSaldo();
+*/
+
+/*
 Aluno a1 = new Aluno();
 a1.Nome = "Carlos";
 a1.Idade = 1;
@@ -12,6 +25,7 @@ p1.Nome = "Eduardo";
 p1.Idade = 2;
 p1.Salario = 3;
 p1.Apresentar();
+*/
 
 /*
 ContaCorrente c1 = new ContaCorrente(123, 1000);
