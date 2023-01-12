@@ -1,11 +1,15 @@
 ﻿using BootcampPottencialDotNetExemploPOO.Models;
 
 
+
+
+
+/*
 Pessoa p1 = new Pessoa("cARLOS");
 Aluno a1 = new Aluno("Pita");
 
 a1.Apresentar();
-
+*/
 
 /*
 Corrente c = new Corrente();

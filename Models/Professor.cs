@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BootcampPottencialDotNetExemploPOO.Models
 {
-    public class Professor : Pessoa
+    public sealed class Professor : Pessoa
     {
         public Professor() 
         { 
