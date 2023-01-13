@@ -1,7 +1,15 @@
-﻿using BootcampPottencialDotNetExemploPOO.Models;
+﻿using BootcampPottencialDotNetExemploPOO.Interfaces;
+using BootcampPottencialDotNetExemploPOO.Models;
 
+
+ ICalculadora calc = new Calculadora();
+Console.WriteLine(calc.Multiplicar(5, 3));
+
+
+/*
 Computador c = new Computador();
 Console.WriteLine(c.ToString());
+*/
 
 /*
 Pessoa p1 = new Pessoa("cARLOS");
