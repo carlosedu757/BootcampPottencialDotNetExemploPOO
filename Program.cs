@@ -3,7 +3,7 @@ using BootcampPottencialDotNetExemploPOO.Models;
 
 
  ICalculadora calc = new Calculadora();
-Console.WriteLine(calc.Multiplicar(5, 3));
+Console.WriteLine(calc.Dividir(15, 3));
 
 
 /*
