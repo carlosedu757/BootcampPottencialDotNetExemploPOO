@@ -1,8 +1,7 @@
 ﻿using BootcampPottencialDotNetExemploPOO.Models;
 
-
-
-
+Computador c = new Computador();
+Console.WriteLine(c.ToString());
 
 /*
 Pessoa p1 = new Pessoa("cARLOS");
